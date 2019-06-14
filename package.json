@@ -1,0 +1,24 @@
+{
+  "name": "facebook_homepage",
+  "version": "1.0.0",
+  "description": "A clone of facebook homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "deploy": "gh-pages -d UI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolaked/Facebook_homepage_clone.git"
+  },
+  "author": "Akere Adetola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolaked/Facebook_homepage_clone/issues"
+  },
+  "homepage": "https://github.com/tolaked/Facebook_homepage_clone#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

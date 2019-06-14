@@ -1,0 +1,76 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* styles the entire body */
+body {
+  color: #8b9dc3;
+  width: 100%;
+}
+
+/* styles the header */
+.header {
+  background: #3b5998;
+  height: 14%;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* styles the navigation */
+.nav-bar {
+  display: flex;
+}
+
+/* styles the logo */
+.logo {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1;
+  font-size: 2.8rem;
+  padding-top: 1.25rem;
+  padding-left: 9.4rem;
+}
+
+/* styles the login input */
+ul.login-input {
+  padding-left: 25rem;
+  padding-top: 1.25rem;
+  display: flex;
+}
+
+/* styles the login form list */
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.9rem;
+}
+
+/* styles the label */
+.label {
+  padding-bottom: 5px;
+}
+
+/* styles the submit button */
+.submit-button {
+  padding-top: 1.4rem;
+  width: 3.3rem;
+  color: white;
+  border: 0px;
+  text-align: center;
+}
+
+.login-btn {
+  background: #4267b2;
+  color: white;
+  border: 0px;
+  font-weight: bold;
+  padding: 2px 6px;
+}
+
+.forgot-acct {
+  color: #9cb4d8;
+  text-decoration: none;
+}
