@@ -4,7 +4,8 @@
   "description": "A clone of facebook homepage",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "deploy": "gh-pages -d UI"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/tolaked/Facebook_homepage_clone/issues"
   },
-  "homepage": "https://github.com/tolaked/Facebook_homepage_clone#readme"
+  "homepage": "https://github.com/tolaked/Facebook_homepage_clone#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
